@@ -2,9 +2,7 @@
 export default {
         serverMiddleware: [
             'redirect-ssl',
-            { path: '/router', handler: '~/router/router.js'},
-            {path: '/api', handler: '~/api/courseAPI.js'},
-            
+            { path: '/router', handler: '~/router/router.js'}            
         ]
       
 }
